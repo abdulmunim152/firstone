@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Modern Website</title>
+    <!-- Links the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header>
+    <nav class="navbar">
+        <a href="#" class="logo">BrandName</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <h1>Build Something Great</h1>
+    <p>A clean, responsive starter template using HTML, CSS, and JavaScript.</p>
+    <a href="#features" class="btn">Explore Features</a>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="features">
+    <h2>Key Features</h2>
+    <div class="card-grid">
+        <div class="card">
+            <h3>Fast & Lightweight</h3>
+            <p>Zero heavy frameworks—just pure, clean vanilla code that loads instantly.</p>
+        </div>
+        <div class="card">
+            <h3>Responsive Design</h3>
+            <p>Automatically adapts to desktop monitors, tablets, and mobile phones.</p>
+        </div>
+        <div class="card">
+            <h3>Interactive</h3>
+            <p>Includes a working dark mode toggle and dynamic form validation.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="form-status" class="status-msg"></p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 BrandName. All rights reserved.</p>
+</footer>
+
+<!-- Links the JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>
